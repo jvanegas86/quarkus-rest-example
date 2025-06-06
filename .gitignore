@@ -1,0 +1,68 @@
+# Ignorar archivos compilados y temporales
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Ignorar directorios de build
+/target/
+/build/
+/out/
+/bin/
+/dist/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
+mvnw
+mvnw.cmd
+
+# Quarkus dev mode data
+.quarkus/
+
+# Archivos de configuración local
+*.env
+*.local
+*.secret
+
+# Git y control de versiones
+*.orig
+
+# Ignorar todo por defecto, salvo archivos fuente y config
+*
+
+# Incluir directorios
+!*/
+
+# Incluir código fuente y archivos de configuración
+!*.java
+!*.kt
+!*.xml
+!*.yml
+!*.yaml
+!*.json
+!*.properties
+
+# Incluir archivos de recursos estáticos (si aplica)
+!*.html
+!*.css
+!*.js
+!*.ts
+!.gitignore

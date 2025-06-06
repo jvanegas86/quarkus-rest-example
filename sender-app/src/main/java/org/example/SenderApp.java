@@ -6,9 +6,11 @@ import org.eclipse.microprofile.rest.client.inject.RestClient;
 import org.example.client.ReceiverClient;
 import org.example.dto.MeasurementDto;
 import org.jboss.logging.Logger;
+import io.quarkus.runtime.Startup;
 
 import java.time.Instant;
 
+@Startup
 @ApplicationScoped
 public class SenderApp {
 
