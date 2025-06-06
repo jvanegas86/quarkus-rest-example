@@ -19,6 +19,6 @@ public class MeasurementResource {
     @Produces(MediaType.TEXT_PLAIN)
     public String receive(MeasurementDto dto) {
         LOG.infof("🔹 Recibido: %s=%.2f %s [%s]", dto.type, dto.value, dto.unit, dto.timestamp);
-        return "ACK - Recibido " + dto.type;
+        return "ACK - RECEIVED " + dto.type;
     }
 }
